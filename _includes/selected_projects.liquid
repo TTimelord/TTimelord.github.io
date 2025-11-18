@@ -1,14 +1,13 @@
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  <div class="container">
-    <div class="row row-cols-1">
-    {%- for project in sorted_projects -%}
-      {% if project.selected -%}
-        {% include projects_horizontal.liquid %}
-      {%- endif -%}
-      <p style="margin-bottom:0.5cm"> </p>
-    {%- endfor %}
-    </div>
-  </div>
+{%- assign sorted_projects = site.projects | sort: "importance" -%}
+<!-- Generate cards for each project -->
+<div class="container">
+<div class="row row-cols-1">
+{%- for project in sorted_projects -%}
+    {% if project.selected -%}
+    {% include projects_horizontal.liquid %}
+    {%- endif -%}
+    <p style="margin-bottom:0.5cm"> </p>
+{%- endfor %}
+</div>
 </div>
