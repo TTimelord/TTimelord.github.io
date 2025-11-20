@@ -37,6 +37,6 @@ My research aims to enable agile and reliable motion generation for robots to pe
 * Learning-based: Imitation Learning, Sim-and-Real Co-training
 * Model-based: Optimal Control, Stochastic Control, Formal Verification
 
-I am especially interested in combining learning and model-based methods. For example, learning world models that support online planning, enabling robots to generalize to unseen environments, and using model-based planners to generate demonstrations that maximize data coverage for policy training.
+I am especially interested in combining learning and model-based methods to make robots both adaptable and dependable when operating in complex real-world environments. For example, learning world models that support online planning, enabling robots to generalize to unseen environments, and using model-based planners to generate demonstrations that maximize data coverage for policy training.
 <!-- Beyond these technical pursuits, I also see robotics as a philosophical journey—a way to explore fundamental questions about the nature and purpose of our existence. -->
 
