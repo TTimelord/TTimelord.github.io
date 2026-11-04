@@ -8,10 +8,8 @@ profile:
   align: right
   image: profile/liqian_ma.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>CODA E1011</p>
-    <p>756 West Peachtree Street</p>
-    <p>Atlanta, GA 30332</p>
+  more_info:
+
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 selected_projects: true # includes a list of peojects marked as "selected={true}"
@@ -29,14 +27,10 @@ latest_posts:
 ---
 
 
-I'm a second-year Robotics Ph.D. student at [Georgia Institute of Technology](https://www.gatech.edu/), advised by Prof. [Yongxin Chen](https://yongxin.ae.gatech.edu/index.html). I received my Bachelor’s degree in Mechanical Engineering from [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2024. I visited the [Intelligent Control Lab](http://icontrol.ri.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/) in 2023.
+I'm a third-year Robotics Ph.D. student at [Georgia Institute of Technology](https://www.gatech.edu/), advised by Prof. [Yongxin Chen](https://yongxin.ae.gatech.edu/index.html). I received my Bachelor’s degree from Tsinghua University in 2024. Previously, I interned at Toyota Research Institute.  
 
 ## Research Interests
+{: style="margin-top: 2rem"}
 
-My research aims to enable agile and reliable motion generation for robots to perform diverse tasks. I work at the intersection of learning-based and model-based approaches:
-* Learning-based: Imitation Learning, Sim-and-Real Co-training
-* Model-based: Optimal Control, Stochastic Control, Formal Verification
-
-I am especially interested in combining learning and model-based methods to make robots both adaptable and dependable when operating in complex real-world environments. For example, learning world models that support online planning, enabling robots to generalize to unseen environments, and using model-based planners to generate demonstrations that maximize data coverage for policy training.
-<!-- Beyond these technical pursuits, I also see robotics as a philosophical journey—a way to explore fundamental questions about the nature and purpose of our existence. -->
+My research aims to enable robots to generalize across complex, unstructured environments while acting safely and reliably. To this end, I work at the intersection of learning-based and model-based methods. Beyond these technical pursuits, I also see robotics as a philosophical journey: a way to explore fundamental questions about intelligence and our own existence.
 
